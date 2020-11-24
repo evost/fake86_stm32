@@ -18,6 +18,7 @@
     <ProjectGuid>{BE8FA015-E801-40C8-B35B-D477C540439F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>imagegen</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -57,7 +58,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>.\bin\</OutDir>
-    <IntDir>.\intermediate\</IntDir>
+    <IntDir>.\intermediate\imagegen\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>false</LinkIncremental>
